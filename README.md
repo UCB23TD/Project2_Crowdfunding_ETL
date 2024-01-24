@@ -6,12 +6,12 @@ ETL (Extract, Transform & Load) is a crucial skill for handling data in the real
 
 ## Sources of Data
 ### Resources Folder:
-•	ccontacts.csv
-•	campaign.csv
-•	subcategory.csv
-•	category.csv
-•	contacts.xlsx
-•	crowdfunding.xlsx
+- ccontacts.csv
+- campaign.csv
+- subcategory.csv
+- category.csv
+- contacts.xlsx
+- crowdfunding.xlsx
 
 ## Database Type for Final Production Environment
 
