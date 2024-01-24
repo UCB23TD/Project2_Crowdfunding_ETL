@@ -1,6 +1,9 @@
 # bakbash-Crowdfunding_ETL Project2
+
 ## Introduction
+
 ETL (Extract, Transform & Load) is a crucial skill for handling data in the real world. This project focuses on extracting, transforming, and loading data from various sources to create a clean, up-to-date, and accurate dataset. The primary goal is to empower users to manipulate data effectively, fix formatting issues, and gain meaningful insights. The project uses the data mentioned below for extraction, transformation, and loading.
+
 ## Sources of Data
 ### Resources Folder:
 •	ccontacts.csv
@@ -9,8 +12,9 @@ ETL (Extract, Transform & Load) is a crucial skill for handling data in the real
 •	category.csv
 •	contacts.xlsx
 •	crowdfunding.xlsx
+
 ## Database Type for Final Production Environment
-Description: The final production environment will use a Relational (SQL) database for storing and managing the data.
+
 •	Database Type: Relational (SQL)
 •	Data Cleaning and Processing: Jupyter Notebook
 •	Packages Used: pandas, numpy, datetime
@@ -20,14 +24,12 @@ An Entity Relationship Diagram (ERD) will be created to visually represent the d
 
 ![Screenshot 2024-01-23 at 8 34 20 PM](https://github.com/bakbash/Crowdfunding_ETL/assets/148186521/e43f219d-3dad-4c8a-ade7-dfd8c07e6b24)
 
-## Conclusion
-The data suggests that certain categories and subcategories are more successful in crowdfunding. The United States, Canada, and the United Kingdom show the highest crowdfunding support.
-Project Outline
-Instructions
-The instructions for this mini project are divided into the following subsections:
+## Project Outline
 1.	Create the Category and Subcategory DataFrames
-•	Extract and transform crowdfunding.xlsx data to create category and subcategory DataFrames.
-•	Export DataFrames as category.csv and subcategory.csv.
+•	Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame 
+•	Export the category DataFrame as category.csv and save it to your GitHub repository.
+•	Extract and transform the crowdfunding.xlsx Excel data to create a subcategory
+•	Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 2.	Create the Campaign DataFrame
 •	Extract and transform crowdfunding.xlsx data to create a campaign DataFrame.
 •	Export DataFrame as campaign.csv.
@@ -35,8 +37,11 @@ The instructions for this mini project are divided into the following subsection
 •	Choose Option 1 or Option 2 for extracting and transforming data from contacts.xlsx.
 •	Export DataFrame as contacts.csv.
 4.	Create the Crowdfunding Database
-•	Sketch an ERD using QuickDBD.
+•	Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBD
 •	Create a table schema for each CSV file in crowdfunding_db_schema.sql.
-•	Create a new Postgres database named crowdfunding_db.
-•	Create tables in the correct order using the database schema.
-•	Verify table creation and import CSV files.
+• Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
+•	Create a new Postgres database, named crowdfunding_db.
+•	Using the database schema, create the tables in the correct order to handle the foreign keys.
+• Verify the table creation by running a SELECT statement for each table.
+• Import each CSV file into its corresponding SQL table.
+• Verify that each table has the correct data by running a SELECT statement for each.
