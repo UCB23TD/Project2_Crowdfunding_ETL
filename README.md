@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ETL (Extract, Transform & Load) is a crucial skill for handling data in the real world. This project focuses on extracting, transforming, and loading data from various sources to create a clean, up-to-date, and accurate dataset. The primary goal is to empower users to manipulate data effectively, fix formatting issues, and gain meaningful insights. The project uses the data mentioned below for extraction, transformation, and loading.
+This project focuses on extracting, transforming, and loading data from various sources to create a clean, up-to-date, and accurate dataset. The primary goal is to empower users to manipulate data effectively, fix formatting issues, and gain meaningful insights. The project uses the data mentioned below for extraction, transformation, and loading.
 
 ## Sources of Data
 ### Resources Folder:
