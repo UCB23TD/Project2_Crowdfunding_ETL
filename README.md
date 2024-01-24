@@ -22,6 +22,8 @@ ETL (Extract, Transform & Load) is a crucial skill for handling data in the real
 An Entity Relationship Diagram (ERD) will be created to visually represent the database structure.
 ## ERD
 
+Entity Relationship Diagram (ERD) has been created by using https://www.quickdatabasediagrams.com/  
+
 ![Screenshot 2024-01-23 at 8 34 20 PM](https://github.com/bakbash/Crowdfunding_ETL/assets/148186521/e43f219d-3dad-4c8a-ade7-dfd8c07e6b24)
 
 ## Project Outline
