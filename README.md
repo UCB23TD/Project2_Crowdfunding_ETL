@@ -1,4 +1,4 @@
-# bakbash-Crowdfunding_ETL Project2
+# Crowdfunding_ETL Project2
 
 ## Introduction
 
